@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+build/
+*.zip
+*.exe
+*.pdb
+.local/

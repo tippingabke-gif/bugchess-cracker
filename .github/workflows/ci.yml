@@ -14,3 +14,5 @@ jobs:
       - run: python tools/check_sources.py
       - shell: powershell
         run: ./tools/build-check.ps1
+      - shell: powershell
+        run: ./tools/test-long-paths.ps1

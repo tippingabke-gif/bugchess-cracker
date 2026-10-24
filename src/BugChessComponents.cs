@@ -12,7 +12,7 @@ using Microsoft.Win32;
 
 [assembly: AssemblyTitle("小虫引擎破解器")]
 [assembly: AssemblyProduct("小虫引擎破解器")]
-[assembly: AssemblyVersion("1.0.0.220")]
+[assembly: AssemblyVersion("1.0.0.222")]
 
 sealed class Installation {
  public int schema=1, oldUseFilter;

@@ -52,8 +52,6 @@ static class PortableBundle {
   return text.Replace(oldPath.Replace("\\","\\\\"),newPath.Replace("\\","\\\\")).Replace(oldPath,newPath);
  }
  public static void Ensure(string root,string support){
-  System.AppContext.SetSwitch("Switch.System.IO.UseLegacyPathHandling",false);
-  System.AppContext.SetSwitch("Switch.System.IO.BlockLongPaths",false);
   if(root.Contains("\"")||root.Contains("'"))throw new Exception("当前组件目录请使用不含引号的路径。");
   string sdeRoot=SdeRoot(root);
   string marker=Path.Combine(support,"bundle-version.txt");

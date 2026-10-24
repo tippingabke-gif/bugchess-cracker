@@ -4,16 +4,16 @@
 
 **可以使用与小虫引擎兼容的审局库（残局库）**，通过 `settings.txt` 的 `EgtbEnable` 和 `EgtbPath` 配置。审局库数据需自行准备，发布包不包含审局库。
 
-项目地址：[tippingabke-gif](https://github.com/tippingabke-gif/bugchess-cracker) · 安装器版本 **1.0.0.220**
+项目地址：[tippingabke-gif](https://github.com/tippingabke-gif/bugchess-cracker) · 安装器版本 **1.0.0.222**
 
 ## 下载
 
 | 文件 | 内容 | 适合谁 |
 |---|---|---|
-| [单独版](https://github.com/tippingabke-gif/bugchess-cracker/releases/download/v20260627-r1/BugChess-20260627-Standalone-v1.0.0.220.zip) | 单文件破解器、使用说明与许可声明 | 已有完整小虫原包和棋盘 |
-| [鲨鱼整合包](https://github.com/tippingabke-gif/bugchess-cracker/releases/download/v20260627-r1/ChessShark-BugChess-20260627-v1.0.0.220.zip) | 鲨鱼、启动入口、四个小虫原引擎、权重、知识库、破解器与预置配置 | 希望解压后从统一入口启动 |
+| [单独版](https://github.com/tippingabke-gif/bugchess-cracker/releases/download/v20260627-r2/BugChess-20260627-Standalone-v1.0.0.222.zip) | 单文件破解器、使用说明与许可声明 | 已有完整小虫原包和棋盘 |
+| [鲨鱼整合包](https://github.com/tippingabke-gif/bugchess-cracker/releases/download/v20260627-r2/ChessShark-BugChess-20260627-v1.0.0.222.zip) | 鲨鱼、启动入口、四个小虫原引擎、权重、知识库、破解器与预置配置 | 希望解压后从统一入口启动 |
 
-[全部下载与 SHA-256](https://github.com/tippingabke-gif/bugchess-cracker/releases/tag/v20260627-r1)
+[全部下载与 SHA-256](https://github.com/tippingabke-gif/bugchess-cracker/releases/tag/v20260627-r2)
 
 ## 使用说明
 
@@ -32,6 +32,8 @@
 4. 保留生成的 `tippingabke-gif` 组件目录和 `account.txt`；以后直接加载原 EXE。
 
 完整操作、升级、卸载和常见问题见 [使用说明](使用说明.md)。鲨鱼原程序在部分 VMware 环境会触发虚拟机检测提示，整合包未对所有虚拟机环境作兼容承诺。
+
+1.0.0.222 修复安装器首次解压遇到超过 260 字符路径时报错的问题，要求 .NET Framework 4.8。此项修复针对安装和启动入口，不更改原引擎、权重或搜索参数。
 
 ## 使用截图
 
